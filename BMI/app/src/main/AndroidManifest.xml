@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BMI">
         <activity
+            android:name=".ShoppingListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BmiChartActivity"
+            android:exported="false" />
+        <activity
             android:name=".CalorieActivity"
             android:exported="false" />
         <activity

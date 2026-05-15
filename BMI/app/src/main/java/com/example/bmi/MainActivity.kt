@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
         }
         val btnBmi = findViewById<Button>(R.id.btnBmi)
         val btnCal = findViewById<Button>(R.id.btnCalories)
+        val btnGra = findViewById<Button>(R.id.btnGraph)
+        val btnLis = findViewById<Button>(R.id.btnList)
 
         btnBmi.setOnClickListener {
             val intent = Intent(this, BmiActivity::class.java)
@@ -28,6 +30,16 @@ class MainActivity : AppCompatActivity() {
 
         btnCal.setOnClickListener {
             val intent = Intent(this, CalorieActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnGra.setOnClickListener {
+            val intent = Intent(this, BmiChartActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnLis.setOnClickListener {
+            val intent = Intent(this, ShoppingListActivity::class.java)
             startActivity(intent)
         }
     }

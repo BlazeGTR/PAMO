@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BMI</string>
+    <string name="calc_bmi_weight">Waga</string>
+    <string name="calc_bmi_height">Wzrost</string>
+    <string name="calc_bmi_calc_button">Oblicz!</string>
+    <string name="calc_bmi_output_text">Twoje BMI:</string>
 </resources>
